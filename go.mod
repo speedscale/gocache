@@ -1,4 +1,4 @@
-module github.com/eko/gocache/v3
+module github.com/speedscale/gocache/v3
 
 go 1.18
 
@@ -8,6 +8,7 @@ require (
 	github.com/bradfitz/gomemcache v0.0.0-20220106215444-fb4bf637b56d
 	github.com/coocood/freecache v1.2.1
 	github.com/dgraph-io/ristretto v0.1.0
+	github.com/eko/gocache/v3 v3.1.1
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang/mock v1.6.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
@@ -50,4 +51,4 @@ require (
 	k8s.io/apimachinery v0.23.5 // indirect
 )
 
-require github.com/eko/gocache/v3 v3.1.1
+replace github.com/eko/gocache/v3 v3.1.1 => github.com/speedscale/gocache/v3 v3.1.2
