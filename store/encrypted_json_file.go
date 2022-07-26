@@ -7,6 +7,7 @@ import (
 	"encoding/hex"
 	"io"
 	"io/ioutil"
+	"time"
 )
 
 // written by Aleksandr Fofanov (aleks-fofanov) on behalf of Speedscale
@@ -20,7 +21,7 @@ type EncryptedJSONFileStore struct {
 	JSONFileStore
 }
 
-func NewEncryptedJSONFileStore(path string, encryptionKey []byte, options *Options) (StoreInterface, error) {
+func NewEncryptedJSONFileStore(path string, encryptionKey []byte, expiration time.Duration) (StoreInterface, error) {
 	if err := validateFile(path); err != nil {
 		return nil, err
 	}
@@ -28,7 +29,7 @@ func NewEncryptedJSONFileStore(path string, encryptionKey []byte, options *Optio
 	s := &EncryptedJSONFileStore{
 		JSONFileStore: JSONFileStore{
 			path:    path,
-			options: options,
+			options: &Options{expiration: expiration},
 			fileIO:  newEncryptedFileIO(path, encryptionKey),
 		},
 	}
