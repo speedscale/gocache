@@ -51,4 +51,5 @@ require (
 	k8s.io/apimachinery v0.23.5 // indirect
 )
 
-//replace github.com/eko/gocache/v3 v3.1.1 => github.com/speedscale/gocache/v3 v3.1.5
+//require github.com/eko/gocache/v3 v3.1.1
+replace github.com/eko/gocache/v3 v3.1.1 => github.com/speedscale/gocache/v3 v3.1.5
