@@ -45,7 +45,7 @@ github.com/dgryski/go-rendezvous
 # github.com/dustin/go-humanize v1.0.0
 ## explicit
 github.com/dustin/go-humanize
-# github.com/eko/gocache/v3 v3.1.1 => github.com/speedscale/gocache/v3 v3.1.5
+# github.com/eko/gocache/v3 v3.1.1 => github.com/speedscale/gocache/v3 v3.1.6
 ## explicit; go 1.18
 github.com/eko/gocache/v3/cache
 github.com/eko/gocache/v3/codec

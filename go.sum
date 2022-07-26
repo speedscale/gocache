@@ -310,8 +310,8 @@ github.com/smartystreets/assertions v1.13.0 h1:Dx1kYM01xsSqKPno3aqLnrwac2LetPvN2
 github.com/smartystreets/assertions v1.13.0/go.mod h1:wDmR7qL282YbGsPy6H/yAsesrxfxaaSlJazyFLYVFx8=
 github.com/smartystreets/goconvey v1.7.2 h1:9RBaZCeXEQ3UselpuwUQHltGVXvdwm6cv1hgR6gDIPg=
 github.com/smartystreets/goconvey v1.7.2/go.mod h1:Vw0tHAZW6lzCRk3xgdin6fKYcG+G3Pg9vgXWeJpQFMM=
-github.com/speedscale/gocache/v3 v3.1.5 h1:8a6GYCQ3WcRXB1LGM5fCkVF758yFW7NF9AdECQ/unQI=
-github.com/speedscale/gocache/v3 v3.1.5/go.mod h1:tauaehoER0rQwoDHQBBFCqDtTZYt0A2dHQDeB2of+zo=
+github.com/speedscale/gocache/v3 v3.1.6 h1:+h2679x5zRkiXKMfdCHV+kqHWLlTY+H1J6JRIFKqn9s=
+github.com/speedscale/gocache/v3 v3.1.6/go.mod h1:KoFNoNzIzl1+O4nx5ouUkEHijI/572vlFUL2hnrHupE=
 github.com/spf13/afero v1.2.2/go.mod h1:9ZxEEn6pIJ8Rxe320qSDBk6AsU0r9pR7Q4OcevTdifk=
 github.com/spf13/cast v1.5.0 h1:rj3WzYc11XZaIZMPKmwP96zkFEnnAmV8s6XbB2aY32w=
 github.com/spf13/cast v1.5.0/go.mod h1:SpXXQ5YoyJw6s3/6cMTQuxvgRl3PCJiyaX9p6b155UU=
