@@ -49,3 +49,5 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/apimachinery v0.23.5 // indirect
 )
+
+require github.com/eko/gocache/v3 v3.1.1
